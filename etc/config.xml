@@ -8,12 +8,6 @@
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../Store/etc/config.xsd">
     <default>
         <system>
-            <smtp>
-                <authentication>TODO</smtp_authentication>
-                <username>TODO</username>
-                <password>TODO</password>
-                <ssl>TODO</smtp_ssl>
-            </smtp>
         </system>
     </default>
 </config>

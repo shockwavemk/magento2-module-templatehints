@@ -6,5 +6,5 @@
  */
 -->
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../lib/internal/Magento/Framework/ObjectManager/etc/config.xsd">
-	<preference for="Magento\Framework\View\TemplateEngineInterface" type="Shockwavemk\Smtp\Model\TemplateEngine\Decorator\DebugHints" />
+	<preference for="Magento\Developer\Model\TemplateEngine\Decorator\DebugHints" type="Shockwavemk\Templatehints\Model\TemplateEngine\Decorator\DebugHints" />
 </config>
