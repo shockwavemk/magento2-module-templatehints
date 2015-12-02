@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © 2015 Magento. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../Config/etc/system_file.xsd">
+    <system>
+        <section id="system">
+            <group id="smtp">
+                <field id="authentication" translate="label" type="select" sortOrder="30" showInDefault="1" showInWebsite="0" showInStore="0">
+                    <label>Authentication</label>
+                    <source_model>Magento\Translation\Model\Js\Config\Source\Strategysmtppro/system_config_source_smtp_authentication</source_model>
+                    <comment>TODO</comment>
+                </field>
+
+                <field id="username" translate="label" type="text" sortOrder="30" showInDefault="1" showInWebsite="0" showInStore="0">
+                    <label>Username</label>
+                    <comment>TODO</comment>
+                </field>
+
+                <field id="password" translate="label" type="text" sortOrder="30" showInDefault="1" showInWebsite="0" showInStore="0">
+                    <label>Password</label>
+                    <source_model>Magento\Translation\Model\Js\Config\Source\Strategysmtppro/adminhtml/system_config_backend_encrypted</source_model>
+                    <comment>TODO</comment>
+                </field>
+
+                <field id="ssl" translate="label" type="select" sortOrder="30" showInDefault="1" showInWebsite="0" showInStore="0">
+                    <label>SSL Security</label>
+                    <comment><![CDATA[Custom SMTP servers can be configured in this section. See <a href='http://shockwave-design.de/magento2/smtp' target='_blank'>shockwave-design.de</a>]]></comment>
+                    <source_model>smtppro/system_config_source_smtp_ssl</source_model>
+                </field>
+            </group>
+        </section>
+    </system>
+</config>
+

@@ -1,0 +1,21 @@
+{
+    "name": "shockwavemk/magento2-module-templatehints",
+    "description": "Show advanced information for blocks in Magento2 Frontend",
+    "require": {
+        "magento/magento-composer-installer": "*"
+    },
+    "type": "magento2-module",
+    "version": "0.1.0-beta1",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "extra": {
+        "map": [
+            [
+                "*",
+                "Shockwavemk/Templatehints"
+            ]
+        ]
+    }
+}
