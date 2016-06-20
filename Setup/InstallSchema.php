@@ -4,7 +4,7 @@
  * See COPYING.txt for license details.
  */
 
-namespace Shockwavemk\Smtp\Setup;
+namespace Shockwavemk\Templatehints\Setup;
 
 use Magento\Framework\Setup\InstallSchemaInterface;
 use Magento\Framework\Setup\ModuleContextInterface;
