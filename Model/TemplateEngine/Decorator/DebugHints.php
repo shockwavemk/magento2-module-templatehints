@@ -11,7 +11,7 @@ namespace Shockwavemk\Templatehints\Model\TemplateEngine\Decorator;
 
 use Magento\Theme\Block\Adminhtml\Wysiwyg\Files\Content;
 
-class DebugHints extends \Magento\Developer\Model\TemplateEngine\Decorator\DebugHints implements \Magento\Framework\View\TemplateEngineInterface
+class DebugHints extends \Magento\Developer\Model\TemplateEngine\Decorator\DebugHints
 {
     /**
      * Cache
@@ -104,7 +104,7 @@ class DebugHints extends \Magento\Developer\Model\TemplateEngine\Decorator\Debug
 Content;
 
         return <<<HTML
-<div class="debugging-hints" data-ot="{$content}" data-ot-target="true"
+<div class="debugging-hints" data-ot="{$content}" data-ot-target="true" data-ot-show-on="click" data-ot-hide-trigger="closeButton"
      data-ot-target-joint="top left" data-ot-background="{$colors['light']}" data-ot-border-color="{$colors['dark']}"
      style="border: 1px dotted {$colors['dark']}; ">
 {$blockHtml}
